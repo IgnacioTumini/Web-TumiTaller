@@ -1,0 +1,27 @@
+.logo {
+  width: 100%;
+  height: 10vh;
+}
+
+.Navbar-container {
+  background-color: #295dcc;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-around;
+  height: 10vh;
+  width: 100%;
+  z-index: calc(2);
+  margin-bottom: 15px;
+}
+.Navbar-links {
+  display: flex;
+  gap: 20px;
+}
+.Navbar-letras {
+  color: white;
+  text-decoration: inherit;
+}
+.Navbar-letras:hover {
+  color: rgb(70, 170, 236);
+}

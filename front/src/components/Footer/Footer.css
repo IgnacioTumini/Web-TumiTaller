@@ -1,0 +1,39 @@
+.box-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  padding-bottom: 10px;
+  background-color: #295dcc;
+}
+.footer-text {
+  margin: 0;
+  text-align: center;
+}
+.box-redes {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.insta {
+  color: white;
+}
+.insta:hover {
+  color: deeppink;
+}
+.face {
+  color: white;
+}
+.face:hover {
+  color: dodgerblue;
+}
+.wap {
+  color: white;
+}
+.wap:hover {
+  color: chartreuse;
+}

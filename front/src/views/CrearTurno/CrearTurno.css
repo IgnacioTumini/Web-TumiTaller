@@ -1,0 +1,99 @@
+.section-crear-turno {
+  padding-top: 10vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  min-height: 90vh;
+  justify-content: center;
+  background-image: linear-gradient(
+      115deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../../assets/fondoturnos.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.title-turn {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #00bfff;
+}
+.error {
+  color: red;
+  margin: 0;
+}
+.box-form-turn {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+.box-input-turn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-turn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  border-radius: 20px;
+  position: relative;
+  background-color: #1a1a1ab7;
+  color: #fff;
+  border: 1px solid #00bfff;
+  align-items: center;
+  padding: 20px;
+}
+
+.input {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 05px 05px 10px;
+
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+}
+
+.input {
+  font-size: medium;
+}
+
+.submit {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transform: 0.3s ease;
+  background-color: #00bfff;
+}
+
+.submit:hover {
+  background-color: #00bfff96;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
